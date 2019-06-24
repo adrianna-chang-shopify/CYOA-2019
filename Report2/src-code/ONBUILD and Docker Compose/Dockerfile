@@ -5,7 +5,8 @@ MAINTAINER adrianna.chang@shopify.com
 RUN apt-get update
 RUN apt-get install -y curl
 
-RUN apt-get install --yes nodejs
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
+RUN apt-get update && apt-get install --yes nodejs
 RUN apt-get clean
 
 # Create folder in image for src code
