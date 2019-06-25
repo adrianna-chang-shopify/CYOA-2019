@@ -1,0 +1,15 @@
+version: '2'
+services:
+  service1:
+    image: ubuntu
+    command: sleep 3600
+    volumes:
+      - data:/data
+  service2:
+    image: ubuntu
+    command: sleep 3600
+    volumes:
+      - data:/data
+volumes:
+  data:
+    driver: local

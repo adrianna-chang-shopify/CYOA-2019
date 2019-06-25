@@ -1,0 +1,21 @@
+version: '2'
+services:
+  service1:
+    image: ubuntu
+    command: sleep 3600
+    networks:
+      - default
+      - internal1
+  service2:
+    image: ubuntu
+    command: sleep 3600
+    networks:
+      - internal1
+  service3:
+    image: ubuntu
+    command: sleep 3600
+    networks:
+      - default
+networks:
+  internal1:
+    driver: bridge
