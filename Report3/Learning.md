@@ -67,3 +67,17 @@ What is the Shebang?
  * Use variable using `${}`
  * Can omit the braces: `$VAR`
    * Can’t do this if you want to directly put content after the variable
+
+### Resources Used
+- [Udemy Containers 101 Course](https://www.udemy.com/containers-101/)
+  - I started join through the advanced section of this course, starting with the Multi-Stage
+  Build tutorial. The style of this tutorial was a bit challenging to follow, and the learning
+  curve was far more significant than the first part of this course. I ended up only doing the first couple
+  sections of the advanced portion, as I found it was too complex to be worth investing time into.
+- [Katacoda Docker Course](https://www.katacoda.com/courses/docker)
+  - I did a couple of the Katacoda Docker scenarios to enhance my Docker knowledge. These were a great resource, 
+  similar to the Katacoda Kubernetes course. The scenarios were all interactive and browser-based, meaning there was
+  no risk of mucking anything up locally. Additionally, they were concise and easy to follow.
+- [Bash Shell Scripting Course](https://www.shellscript.sh)
+  - I followed this course to learn some basic scripting techniques for Linux. It was a great resource. Very
+  easy to follow, and lots of practical examples!
